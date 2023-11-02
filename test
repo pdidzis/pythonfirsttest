@@ -1,0 +1,13 @@
+x = float(input("Asign a number to x="))
+y = float(input("Asign a number to y="))
+print((2+x)/(x*y))
+print(5*(x**3)-(x**2)+(7*x)-6)
+print((x*y)**(0.5))
+
+print("Second example")
+order = 60
+bookprice = 24.95
+discount = 40/100
+discount2 = 1 - discount
+delcost = (3.00 + ((order-1)*0.75))
+print(((order*bookprice)*discount2)+delcost)
